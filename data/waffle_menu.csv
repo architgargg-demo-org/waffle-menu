@@ -1,0 +1,16 @@
+item_id,category,item_name,description,base_price_usd,cost_usd,calories,contains_gluten,contains_dairy,vegetarian,seasonal
+WAF-001,Classic,Original Belgian,"Pearl sugar, powdered sugar, maple syrup",7.50,2.15,520,true,true,true,false
+WAF-002,Classic,Buttermilk Stack,"Two buttermilk waffles, whipped butter, maple syrup",9.00,2.70,680,true,true,true,false
+WAF-003,Fruit,Berry Bliss,"Belgian waffle, strawberries, blueberries, whipped cream",10.50,3.40,610,true,true,true,false
+WAF-004,Fruit,Banana Foster,"Belgian waffle, caramelized banana, cinnamon caramel",11.00,3.25,720,true,true,true,false
+WAF-005,Savory,Chicken and Waffle,"Belgian waffle, crispy chicken, hot honey",14.50,5.60,980,true,true,false,false
+WAF-006,Savory,Cheddar Chive,"Cheddar-chive waffle, fried egg, scallion crema",12.50,4.10,790,true,true,true,false
+WAF-007,Dessert,Chocolate Cloud,"Chocolate waffle, chocolate sauce, vanilla cream",11.50,3.60,830,true,true,true,false
+WAF-008,Dessert,S'mores Waffle,"Graham waffle, marshmallow, chocolate, graham crumble",12.00,3.85,900,true,true,true,false
+WAF-009,Vegan,Vegan Apple Cinnamon,"Oat waffle, cinnamon apples, maple drizzle",10.00,3.05,560,true,false,true,false
+WAF-010,Gluten Friendly,Almond Citrus,"Almond-flour waffle, orange compote, toasted almonds",12.50,4.35,640,false,true,true,false
+WAF-011,Kids,Mini Waffle Dippers,"Four waffle sticks, fruit cup, maple dip",6.50,1.95,430,true,true,true,false
+WAF-012,Seasonal,Pumpkin Praline,"Pumpkin-spice waffle, praline pecans, maple cream",13.00,4.20,850,true,true,true,true
+DRK-001,Beverage,House Coffee,"12 oz drip coffee",3.25,0.65,5,false,false,true,false
+DRK-002,Beverage,Cold Brew,"16 oz cold brew",4.75,1.10,15,false,false,true,false
+DRK-003,Beverage,Fresh Orange Juice,"12 oz orange juice",4.50,1.35,160,false,false,true,false

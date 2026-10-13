@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golden Grid Waffle Co. — Menu</title>
+  <meta name="description" content="Browse the Golden Grid Waffle Co. menu: classic, fruit, savory, dessert, vegan, gluten-friendly, and seasonal waffles.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧇</text></svg>">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#menu">Skip to menu</a>
+
+  <header class="hero">
+    <div class="hero__inner">
+      <p class="hero__eyebrow">Fresh off the iron · Est. 2026</p>
+      <h1 class="hero__title"><span aria-hidden="true">🧇</span> Golden Grid Waffle Co.</h1>
+      <p class="hero__tagline">Crisp outside, fluffy inside. Sweet, savory, and everything in between.</p>
+    </div>
+  </header>
+
+  <main id="main">
+    <section id="featured" class="featured" aria-labelledby="featured-title" hidden>
+      <h2 id="featured-title" class="section-title">Seasonal favorite</h2>
+      <div id="featured-list" class="featured__list"></div>
+    </section>
+
+    <section class="controls" aria-label="Filter the menu">
+      <div class="search">
+        <label for="search-input" class="search__label">Search the menu</label>
+        <input id="search-input" class="search__input" type="search" placeholder="Try “berry”, “chicken”, or “maple”" autocomplete="off">
+      </div>
+      <div class="filters" role="group" aria-labelledby="filters-label">
+        <span id="filters-label" class="visually-hidden">Filter by category</span>
+        <div id="category-filters" class="filters__list"></div>
+      </div>
+      <ul class="legend" aria-label="Dietary key">
+        <li><span class="badge badge--vegetarian">Vegetarian</span></li>
+        <li><span class="badge badge--vegan">Vegan</span></li>
+        <li><span class="badge badge--gf">Gluten-friendly</span></li>
+        <li><span class="badge badge--seasonal">Seasonal</span></li>
+      </ul>
+    </section>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <div id="menu" class="menu" tabindex="-1"></div>
+  </main>
+
+  <footer class="footer">
+    <p>Gluten-friendly items are prepared without gluten ingredients in a shared kitchen and are not certified gluten-free. Please tell your server about any allergies.</p>
+    <p>Golden Grid Waffle Co. is a fictional shop created for demonstration purposes.</p>
+  </footer>
+
+  <script src="app.js" type="module"></script>
+</body>
+</html>
